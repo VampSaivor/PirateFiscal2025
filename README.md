@@ -9,7 +9,7 @@ En este juego, los jugadores exploran un archipiélago pirata en busca de tesoro
 * **Respuesta Correcta:** El jugador es recompensado y puede continuar su aventura.
 * **Respuesta Incorrecta:** Se activan castigos divertidos y desafiantes, como explosiones o gases tóxicos, que deben superar para seguir adelante.
 
-## Estado Actual del Proyecto (Commit: [Fecha Actual, ej: 29/09/2023])
+## Estado Actual del Proyecto (Commit: [Fecha Actual, 29/09/2025])
 
 Este primer *commit* representa la base del sistema de preguntas y respuestas. He logrado completar los siguientes puntos:
 
