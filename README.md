@@ -27,6 +27,9 @@ En la siguiente fase, me enfocaré en:
 
 ¡Gracias por seguir el progreso de este proyecto!
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Proyecto: Explorando la Política Fiscal de Colombia 🏴‍☠️
 
 ¡Bienvenidos al repositorio de mi primer juego en Roblox! Este proyecto busca combinar la diversión de una aventura de piratas con el aprendizaje de conceptos clave de la política fiscal colombiana, específicamente del Marco Fiscal de Mediano Plazo (MFMP) 2025.
@@ -66,3 +69,40 @@ La lógica central está lista. Los siguientes pasos se centrarán en mejorar la
 2.  **Creación de más Contenido:** Añadir al menos 5 preguntas más al `ModuleScript` sobre el MFMP 2025.
 3.  **Mejora de Castigos:** Implementar el castigo de aparición de enemigos (spawn de un `Zombie` simple).
 4.  **Progresión:** Crear un segundo cofre (`CofrePregunta2`) y usar la destrucción
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proyecto: Explorando la Política Fiscal de Colombia 
+
+¡Bienvenidos al repositorio del juego desarrollado en Roblox Studio! El objetivo es combinar la aventura con el conocimiento de conceptos clave de la política fiscal colombiana, específicamente del Marco Fiscal de Mediano Plazo (MFMP) 2025.
+
+Descripción del Juego
+En este juego, los jugadores exploran un entorno en busca de tesoros. Cada cofre que encuentran no contiene oro, ¡sino una pregunta de opción múltiple sobre la gestión fiscal del país!
+
+Respuesta Correcta: El jugador es recompensado y puede continuar su aventura.
+
+Respuesta Incorrecta: Se activan castigos desafiantes que el jugador debe superar para seguir adelante.
+
+Estado Actual del Proyecto (Funcionalidad V2 - 01/10/2025)
+Esta fase ha estado enfocada en la robustez del sistema, la adición masiva de contenido educativo y la mejora de la inmersión y el desafío.
+
+Logros Clave de esta Fase:
+Contenido y Diversidad:
+
+8 Preguntas Específicas: Se reemplazó el contenido inicial con 8 preguntas nuevas y detalladas sobre el Presupuesto y el MFMP 2025, cubriendo deuda, déficit, y gastos obligatorios.
+
+8 Cofres en el Nivel: Se duplicó el modelo del cofre y se distribuyeron 8 instancias del cofre por el mapa para ofrecer múltiples puntos de interacción.
+
+Lógica del Servidor y Correcciones:
+
+Destrucción Individual Corregida (Fix): Se corrigió el error donde todos los cofres desaparecían al responder una pregunta. Ahora, gracias al envío del nombre del cofre desde el cliente, solo el cofre respondido es destruido.
+
+Múltiples Castigos: El sistema ahora maneja cinco (5) castigos diferentes para variar el desafío: Explosión, Gas Tóxico, Caída en Lava, Impuesto Extra (ralentización) y el castigo avanzado.
+
+Inmersión y Desafío Avanzado:
+
+Castigo "Aparición Enemigo": Se implementó el castigo de Aparición de Enemigo (Zombie), que clona un modelo de Zombie y lo posiciona cerca del jugador al fallar, añadiendo un elemento de combate como castigo.
+
+Rediseño de la GUI: La interfaz de usuario (PreguntasFiscalesGUI) fue rediseñada para reflejar un tema de "Documento Oficial Antiguo" (usando colores y UIStroke para simular un sello o libro de cuentas) en lugar de un pergamino pirata, alineándose con el tema de gobierno y economía.
+
+
